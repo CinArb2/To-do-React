@@ -1,0 +1,17 @@
+.todo_wrapper{
+  background-color: white;
+  box-shadow: #64646f33 0px 7px 29px 0px;
+  padding: 2rem;
+  border-radius: 50px;
+  width: min(80%, 800px);
+  font-family: 'Overpass', sans-serif;
+}
+
+.todo_wrapper h1{
+  text-align: center;
+  color: #ff7300;
+}
+
+.todo_wrapper button{
+  cursor: pointer;
+}

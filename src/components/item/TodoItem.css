@@ -1,0 +1,45 @@
+.todo_item{
+  border: 1px solid rgb(214, 210, 210);
+  display: grid;
+  grid-template-columns: 80% 20%;
+  align-items: center;
+  gap: 10px;
+  padding: 0.2rem 1rem;
+  margin-block: 0.5rem;
+}
+
+.todo_item p{
+  font-size: clamp(0.8rem, 5vw, 1.2rem);
+}
+
+.todo_buttons{
+  justify-self: end;
+  display: flex;
+  gap: 5px;
+}
+
+.todo_item button{
+  background-color: transparent;
+  padding: 0.5rem;
+  width: 30px;
+  height: 30px;
+  display: grid;
+  place-items: center;
+}
+
+
+.check{
+  border: 1px solid #39af39;
+  color: #39af39;
+}
+
+.close{
+  border: 1px solid #ff7300;
+  color: #ff7300
+}
+
+
+.done{
+  color: rgb(156, 150, 150);
+  text-decoration-line: line-through;
+}

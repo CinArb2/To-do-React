@@ -1,0 +1,9 @@
+.todo_list-items{
+  margin-top: 2rem;
+}
+
+.no-task{
+  text-align: center;
+  font-size: 1.5rem;
+  color: gray;
+}
