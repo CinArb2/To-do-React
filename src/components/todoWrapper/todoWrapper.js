@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import TodoForm from '../todoForm/TodoForm'
 import TodoListItems from '../todoListItems/todoListItems';
 import './TodoWrapper.css'
-import { nanoid } from 'https://cdn.jsdelivr.net/npm/nanoid/nanoid.js'
+// import { nanoid } from 'https://cdn.jsdelivr.net/npm/nanoid/nanoid.js'
+import { nanoid } from 'nanoid'
 
 function TodoWrapper() {
   const [task, setTask] = useState('')
